@@ -1,0 +1,39 @@
+html, body {
+  height: 50%;
+  margin: 0;
+}
+
+/* body {
+  background: url('assets/bgproducts.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  backdrop-filter: blur(3px);
+  overflow-y: auto; /* Enable vertical scrolling */
+
+.container {
+  padding: 0 15px; /* Ensure container has padding */
+}
+
+#products-section {
+  padding-right: 15px;
+}
+
+#cart-section {
+  padding-left: 15px;
+  position: sticky;
+  top: 20px;
+  z-index: 1000; /* Ensure the cart section stays above other content */
+}
+
+.product-card {
+  margin-bottom: 30px; /* Adjust margin as needed */
+}
+
+.product-image {
+  height: 300px;
+  object-fit: cover;
+}
+
+.form-label {
+  color: white !important;
+}
